@@ -2,7 +2,7 @@
   "name": "ionic-react",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://{jakobthefrog}.github.io",
+  "homepage": "https://jakobthefrog.github.io/UXPortfolio",
   "dependencies": {
     "@ionic/react": "^5.0.0",
     "@ionic/react-router": "^5.0.0",
