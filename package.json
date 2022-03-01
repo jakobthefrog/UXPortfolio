@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://jakobthefrog.github.io/UXPortfolio",
   "dependencies": {
-    "@headlessui/react": "^1.5.0",
     "@heroicons/react": "^1.0.5",
     "@ionic/react": "^5.0.0",
     "@ionic/react-router": "^5.0.0",
