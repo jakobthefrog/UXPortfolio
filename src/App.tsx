@@ -1,5 +1,5 @@
 import React from 'react';
-import { IonApp, IonPage } from '@ionic/react';
+import { IonApp, IonCol, IonGrid, IonPage, IonRow } from '@ionic/react';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -24,7 +24,16 @@ import './theme/App.css';
 const App: React.FC = () => (
   <IonApp>
     <IonPage>
-      <h2>This works!</h2>
+      <IonGrid fixed>
+        <IonRow>
+          <IonCol size='6' className='ion-text-center'>
+            <h2>Hello 1</h2>
+          </IonCol>
+          <IonCol size='6' className='ion-text-center'>
+            <h2>Hello 2</h2>
+          </IonCol>
+        </IonRow>
+      </IonGrid>
     </IonPage>
   </IonApp>
 );

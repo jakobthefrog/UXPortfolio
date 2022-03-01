@@ -2,3 +2,7 @@
     font-family: 'Inter';
     src: local('Inter'), url(../fonts/Inter-Regular.ttf) format('truetype');
   }
+
+  h2 {
+    color: white;
+  }
